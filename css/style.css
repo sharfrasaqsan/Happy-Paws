@@ -402,6 +402,15 @@ button {
   bottom: 10px;
 }
 
+@media (max-width: 480px) {
+  #banner1 .carousel-control-prev,
+  #banner1 .carousel-control-next {
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
+  }
+}
+
 /** end banner section **/
 
 .titlepage h2 {
@@ -443,7 +452,7 @@ button {
 
 .about {
   border-bottom: #000 solid 1px;
-  padding: 130px 0 90px 0;
+  padding: 5rem 0 5rem 0;
 }
 
 .about .about_img {
@@ -458,7 +467,6 @@ button {
   right: -30px;
   background: url(../images/about_right_cross.jpg);
   background-repeat: no-repeat;
-  top: -27px;
   z-index: -1;
 }
 
@@ -495,7 +503,7 @@ button {
 
 .glasses {
   background: #fff;
-  margin-top: 90px;
+  margin-top: 5rem;
 }
 
 .glasses .titlepage {
@@ -519,7 +527,7 @@ button {
   text-align: center;
   border: #555556 solid 1px;
   border-radius: 2px;
-  padding: 120px 0px 30px 0px;
+  padding: 0px 0px 30px 0px;
   margin-bottom: 30px;
 }
 
@@ -527,11 +535,16 @@ button {
   margin: 0;
 }
 
+.glasses .glasses_box figure img {
+  width: 100%;
+  height: 16rem;
+}
+
 .glasses .glasses_box h3 {
   color: #100d0d;
   font-size: 22px;
   line-height: 20px;
-  padding: 70px 0px 9px 0px;
+  padding: 3rem 0px 1rem 0px;
 }
 
 .glasses .glasses_box p {
@@ -553,7 +566,7 @@ button {
 
 /** Our shop section **/
 
-.shop {
+/* .shop {
   margin-top: 90px;
   background: #fefdf9;
   border-top: #f2f1ed solid 1px;
@@ -608,7 +621,7 @@ button {
 
 .shop .titlepage .read_more {
   color: #fff !important;
-}
+} */
 
 /** end Our shop section **/
 
@@ -644,6 +657,11 @@ button {
   line-height: 30px;
 }
 
+.clients_box img {
+  width: 12rem;
+  height: 12rem;
+}
+
 .clients_Carousel .carousel-caption {
   position: inherit;
   padding: 0;
@@ -662,6 +680,20 @@ button {
   float: left;
   margin-left: -102px;
   padding-right: 30px;
+}
+
+@media (max-width: 480px) {
+  .clients_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .clients_box figure {
+    margin-left: 0px;
+    padding-right: 0px;
+  }
 }
 
 #myCarousel .carousel-indicators {
@@ -767,6 +799,12 @@ button {
   opacity: 1;
 }
 
+@media (max-width: 480px) {
+  .map_section {
+    visibility: hidden;
+  }
+}
+
 /** end contact section **/
 
 /** footer **/
@@ -806,11 +844,10 @@ ul.location_icon li a {
 
 .copyright p {
   color: #292929;
-  font-size: 18px;
-  line-height: 22px;
+  font-size: 16px;
+  line-height: 16px;
   text-align: center;
   padding-top: 25px;
-  font-weight: normal;
 }
 
 .copyright a {
