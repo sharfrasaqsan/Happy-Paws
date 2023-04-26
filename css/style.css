@@ -350,7 +350,7 @@ button {
   }
 }
 
-.text-bg .read_more {
+.text-bg .read_more, .read_more1 {
   border: #1a1a1a solid 2px;
   color: #1a1a1a !important;
   font-weight: 500;
@@ -427,7 +427,7 @@ button {
   flex-wrap: wrap;
 }
 
-.read_more {
+.read_more, .read_more1 {
   font-size: 17px;
   background-color: transparent;
   border: #ffffff solid 2px;
@@ -442,7 +442,7 @@ button {
   border-radius: 40px;
 }
 
-.read_more:hover {
+.read_more:hover, .read_more1:hover {
   background: #ffa500;
   color: #fff !important;
   transition: ease-in all 0.5s;
@@ -490,7 +490,7 @@ button {
   padding-top: 20px;
 }
 
-.about .read_more {
+.about .read_more, .read_more1 {
   border: #1a1a1a solid 2px;
   color: #1a1a1a;
   font-weight: 500;
@@ -554,7 +554,7 @@ button {
   font-weight: 400;
 }
 
-.glasses .read_more {
+.glasses .read_more, .read_more1 {
   border: #1a1a1a solid 2px;
   font-weight: 500;
   display: block;
