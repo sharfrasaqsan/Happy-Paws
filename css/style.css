@@ -265,14 +265,14 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link:focus,
 .navigation.navbar-dark .navbar-nav .nav-link:hover {
-  color: #03cafc;
+  color: #ffa500;
 }
 
 .navigation.navbar-dark .navbar-nav .active > .nav-link,
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show > .nav-link {
-  color: #03cafc;
+  color: #ffa500;
 }
 
 .navbar-expand-md .navbar-nav {
@@ -280,7 +280,7 @@ button {
 }
 
 .login_btn a {
-  background: #03cafc;
+  background: #ffa500;
   padding: 9px 32px !important;
   display: inline;
   border-radius: 20px;
@@ -316,17 +316,38 @@ button {
   padding: 198px 0px 90px 0px;
 }
 
+@media (max-width: 480px) {
+  .banner_main {
+    padding: 150px 0px 90px 0px;
+  }
+}
+
 .text-bg {
   text-align: center;
 }
 
 .text-bg h1 {
   color: #070404;
-  font-size: 60px;
-  line-height: 76px;
+  font-size: 40px;
+  line-height: 50px;
   padding-bottom: 45px;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+.banner_tag {
+  color: #070404;
+  font-size: 24px;
+  line-height: 30px;
+  padding-bottom: 45px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+@media (max-width: 480px) {
+  .banner_tag {
+    font-size: 18px;
+  }
 }
 
 .text-bg .read_more {
@@ -365,8 +386,8 @@ button {
 #banner1 .carousel-control-prev:focus,
 #banner1 .carousel-control-next:focus {
   background: transparent;
-  border: #03cafc solid 2px;
-  color: #03cafc;
+  border: #ffa500 solid 2px;
+  color: #ffa500;
 }
 
 #banner1 a.carousel-control-prev {
@@ -413,7 +434,7 @@ button {
 }
 
 .read_more:hover {
-  background: #03cafc;
+  background: #ffa500;
   color: #fff !important;
   transition: ease-in all 0.5s;
 }
@@ -490,7 +511,7 @@ button {
 }
 
 .blu {
-  color: #03cafc;
+  color: #ffa500;
   text-transform: initial;
 }
 
@@ -724,7 +745,7 @@ button {
 }
 
 .send_btn {
-  background: #03cafc;
+  background: #ffa500;
   font-weight: 600;
   font-size: 18px;
   width: 100%;
@@ -797,7 +818,7 @@ ul.location_icon li a {
 }
 
 .copyright a:hover {
-  color: #03cafc;
+  color: #ffa500;
 }
 
 /** end footer **/
@@ -806,7 +827,7 @@ ul.location_icon li a {
 
 .position_head .header {
   position: inherit;
-  background: #03cafc;
+  background: #ffa500;
 }
 
 .position_head .glasses,
